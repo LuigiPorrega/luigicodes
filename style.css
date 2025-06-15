@@ -1,4 +1,3 @@
-/* Reset básico */
 * {
   margin: 0;
   padding: 0;
@@ -9,118 +8,83 @@ body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background-color: #f4f4f4;
   color: #333;
-  line-height: 1.6;
+  padding: 20px;
 }
 
-/* Header */
-.main-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 1rem 2rem;
-  background-color: #1b1f23;
+header {
+  background: #222;
   color: #fff;
-  border-radius: 0 0 10px 10px;
+  padding: 2rem;
+  text-align: center;
+  border-radius: 10px;
+  margin-bottom: 2rem;
 }
 
-.main-header .logo {
-  height: 40px;
+header .logo {
+  width: 80px;
+  margin-bottom: 1rem;
 }
 
-.main-header nav ul {
-  list-style: none;
+header h1 span {
+  color: #4caf50;
+}
+
+nav {
   display: flex;
-  gap: 1rem;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
 }
 
-.main-header nav a {
+nav a {
   color: #4caf50;
   text-decoration: none;
   font-weight: bold;
 }
 
-.main-header nav a:hover {
+nav a:hover {
   text-decoration: underline;
 }
 
-/* About */
-.about {
-  padding: 2rem;
-  text-align: center;
+section {
+  margin-bottom: 2rem;
 }
 
-.about h1 span {
+h2 {
   color: #4caf50;
-}
-
-.about p {
-  margin-top: 1rem;
-}
-
-/* Projects */
-.projects {
-  padding: 2rem;
-}
-
-.projects h2 {
-  text-align: center;
-  color: #4caf50;
-  margin-bottom: 1.5rem;
-}
-
-.card {
-  background-color: #fff;
-  padding: 1.5rem;
   margin-bottom: 1rem;
-  border-radius: 10px;
+}
+
+.project-card {
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 8px;
+  margin-bottom: 1rem;
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
-.card h3 {
+.project-card h3 {
   margin-bottom: 0.5rem;
-  color: #333;
 }
 
-.card p {
-  margin-bottom: 1rem;
-  color: #555;
-}
-
-.card a {
-  background-color: #4caf50;
-  color: #fff;
-  padding: 0.5rem 1rem;
-  text-decoration: none;
-  border-radius: 5px;
+.project-card a {
   display: inline-block;
-}
-
-.card a:hover {
-  background-color: #43a047;
-}
-
-/* Contact */
-.contact {
-  padding: 2rem;
-  background-color: #1b1f23;
+  margin-top: 0.5rem;
   color: #fff;
-  text-align: center;
-  border-radius: 10px;
-}
-
-.contact a {
-  color: #4caf50;
+  background-color: #4caf50;
+  padding: 0.3rem 0.7rem;
+  border-radius: 5px;
   text-decoration: none;
 }
 
-.contact a:hover {
-  text-decoration: underline;
+.project-card a:hover {
+  background-color: #388e3c;
 }
 
-/* Footer */
 footer {
   text-align: center;
   padding: 1rem;
+  background: #222;
   color: #aaa;
-  font-size: 0.9rem;
+  border-radius: 10px;
 }
