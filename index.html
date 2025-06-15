@@ -7,34 +7,50 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <header>
-    <img src="img/logo.png" alt="Logo Luigi Codes" width="120" />
-    <h1>👋 ¡Hola! Soy <span>Luigi Porrega</span></h1>
-    <p>Desarrollador junior | Amante del código limpio | Aprendiendo siempre 🚀</p>
+  <header class="main-header">
+    <img src="img/logo.png" alt="Logo Luigi Codes" class="logo">
+    <nav>
+      <ul>
+        <li><a href="#about">Sobre mí</a></li>
+        <li><a href="#projects">Proyectos</a></li>
+        <li><a href="#contact">Contacto</a></li>
+      </ul>
+    </nav>
   </header>
 
-  <section class="about">
-    <h2>Sobre mí</h2>
-    <p>Me apasiona el desarrollo web, la programación y aprender nuevas tecnologías. Actualmente me estoy formando en informática y trabajando en varios proyectos personales.</p>
+  <section id="about" class="about">
+    <h1>👋 ¡Hola! Soy <span>Luigi Porrega</span></h1>
+    <p>Desarrollador junior | Amante del código limpio | Aprendiendo siempre 🚀</p>
   </section>
 
-  <section class="projects">
+  <section id="projects" class="projects">
     <h2>Proyectos Destacados</h2>
-    <ul>
-      <li><a href="https://github.com/LuigiPorrega/SOLAR_SCREEN" target="_blank">📁 Proyecto de fundas solares para recargar móbiles</a></li>
-      <li><a href="https://github.com/LuigiPorrega/ionic-zelda-api-project" target="_blank">📁 Proyecto con la Api de Zelda utilizando Ionic</a></li>
-      <li><a href="https://github.com/LuigiPorrega/ejercicio_ApiProductos" target="_blank">📁 Proyecto en Angular conectando a una api para los productos de una tienda</a></li>
-    </ul>
+    <div class="card">
+      <h3>📁 Fundas solares</h3>
+      <p>Recarga tu móvil con energía solar.</p>
+      <a href="https://github.com/LuigiPorrega/SOLAR_SCREEN" target="_blank">Ver proyecto</a>
+    </div>
+    <div class="card">
+      <h3>📁 API Zelda con Ionic</h3>
+      <p>Explora el mundo Zelda con esta app.</p>
+      <a href="https://github.com/LuigiPorrega/ionic-zelda-api-project" target="_blank">Ver proyecto</a>
+    </div>
+    <div class="card">
+      <h3>📁 Tienda Angular</h3>
+      <p>Listado de productos conectados a API.</p>
+      <a href="https://github.com/LuigiPorrega/ejercicio_ApiProductos" target="_blank">Ver proyecto</a>
+    </div>
   </section>
 
-  <section class="contact">
+  <section id="contact" class="contact">
     <h2>Contacto</h2>
     <p>📧 <a href="mailto:luis.porrega@gmail.com">luis.porrega@gmail.com</a></p>
     <p>🐙 <a href="https://github.com/LuigiPorrega" target="_blank">Mi perfil en GitHub</a></p>
   </section>
 
   <footer>
-    <p>&copy; 2025 Luigi Porrega. Todos los derechos reservados.</p>
+    <p>&copy; 2025 Luigi Porrega</p>
   </footer>
 </body>
 </html>
+
