@@ -1,3 +1,4 @@
+/* Reset básico */
 * {
   margin: 0;
   padding: 0;
@@ -6,55 +7,120 @@
 
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  line-height: 1.6;
   background-color: #f4f4f4;
   color: #333;
-  padding: 20px;
+  line-height: 1.6;
 }
 
-header {
-  background: #222;
+/* Header */
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #1b1f23;
   color: #fff;
+  border-radius: 0 0 10px 10px;
+}
+
+.main-header .logo {
+  height: 40px;
+}
+
+.main-header nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.main-header nav a {
+  color: #4caf50;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.main-header nav a:hover {
+  text-decoration: underline;
+}
+
+/* About */
+.about {
   padding: 2rem;
   text-align: center;
+}
+
+.about h1 span {
+  color: #4caf50;
+}
+
+.about p {
+  margin-top: 1rem;
+}
+
+/* Projects */
+.projects {
+  padding: 2rem;
+}
+
+.projects h2 {
+  text-align: center;
+  color: #4caf50;
+  margin-bottom: 1.5rem;
+}
+
+.card {
+  background-color: #fff;
+  padding: 1.5rem;
+  margin-bottom: 1rem;
   border-radius: 10px;
-  margin-bottom: 2rem;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
-header h1 span {
-  color: #4caf50;
-}
-
-section {
-  margin-bottom: 2rem;
-}
-
-h2 {
-  color: #4caf50;
+.card h3 {
   margin-bottom: 0.5rem;
+  color: #333;
 }
 
-ul {
-  list-style: none;
+.card p {
+  margin-bottom: 1rem;
+  color: #555;
 }
 
-ul li {
-  margin: 0.5rem 0;
+.card a {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  border-radius: 5px;
+  display: inline-block;
 }
 
-a {
+.card a:hover {
+  background-color: #43a047;
+}
+
+/* Contact */
+.contact {
+  padding: 2rem;
+  background-color: #1b1f23;
+  color: #fff;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.contact a {
   color: #4caf50;
   text-decoration: none;
 }
 
-a:hover {
+.contact a:hover {
   text-decoration: underline;
 }
 
+/* Footer */
 footer {
   text-align: center;
   padding: 1rem;
-  background: #222;
   color: #aaa;
-  border-radius: 10px;
+  font-size: 0.9rem;
 }
