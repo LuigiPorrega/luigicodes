@@ -41,6 +41,39 @@ h2 {
   margin-bottom: 2rem;
 }
 
+.section_about{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 3rem;
+
+}
+.foto_luigi{
+  width:150px; 
+  border-radius:30%; 
+  margin-bottom:1rem;
+  margin-left:1rem;
+  margin-top: auto;
+  margin-right: auto;
+}
+
+.btn-cv {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.6rem 1.2rem;
+  background: #007acc;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.btn-cv:hover {
+  background: #005fa3;
+}
+
+
 .projects ul {
   list-style: none;
 }
