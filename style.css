@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   background-color: #f4f4f4;
   color: #333;
   padding: 20px;
@@ -23,8 +23,8 @@ header {
 header img.logo {
   width: 10rem;
   margin-bottom: 1rem;
-  display: block;        
-  margin-left: auto;     
+  display: block;
+  margin-left: auto;
   margin-right: auto;
 }
 
@@ -37,22 +37,23 @@ h2 {
   margin-bottom: 1rem;
 }
 
-.about, .projects, .contact {
+.about,
+.projects,
+.contact {
   margin-bottom: 2rem;
 }
 
-.section_about{
+.section_about {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   gap: 3rem;
-
 }
-.foto_luigi{
-  width:150px; 
-  border-radius:30%; 
-  margin-bottom:1rem;
-  margin-left:1rem;
+.foto_luigi {
+  width: 150px;
+  border-radius: 30%;
+  margin-bottom: 1rem;
+  margin-left: 1rem;
   margin-top: auto;
   margin-right: auto;
 }
@@ -72,7 +73,6 @@ h2 {
 .btn-cv:hover {
   background: #005fa3;
 }
-
 
 .projects ul {
   list-style: none;
